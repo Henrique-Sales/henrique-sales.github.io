@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Source Code Pro', monospace;
+*/
+
+body { 
+  background-image: linear-gradient(to right, skyblue, darkblue);
+  background-size: auto    
+  font-family: Arial;
+  /*background-color: black;*/
+  color: white;
+  
+
+}
+
+.menu{
+  color: black;
+  background-color: white;
+  border: 0px solid black;
+  border-radius: 0px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+.menu a {
+
+  display: block;
+  padding: 10px 20px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+
+}
+
+header {
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+li {
+  color: grey;
+}
+
+a {
+  color: navy;
+  
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.site-subtitle,
+.site-title {
+  color: whitesmoke;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.site-subtitle {
+  font-style: ;
+}
+.img-portifolio {
+  height: 150px;
+  width: 200px;
+  padding: 10px;
+
+}
+.img-title {
+  float: left;
+  width: 140px;
+  border-radius: 300px;
+  padding: 5px;
+}
+
+.site-sub {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+}
